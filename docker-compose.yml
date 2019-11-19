@@ -16,3 +16,5 @@ services:
       DATABASE_URL: postgres://postgres@db:5432/rails-pangu?pool=25&encoding=unicode&schema_search_path=public
       DEVISE_JWT_SECRET_KEY: RANDOM_SECRET
       REDIS_URL: redis://redis:6379
+    ports:
+      - 80:80

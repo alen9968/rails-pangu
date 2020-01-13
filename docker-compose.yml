@@ -6,7 +6,7 @@ services:
   redis:
     image: redis:alpine
   server:
-    image: rails-pangu
+    image: alen9968/rails-pangu
     links:
       - db
       - redis
